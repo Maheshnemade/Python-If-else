@@ -1,0 +1,11 @@
+#WAP to find whether given number is positive nigative or zero
+
+Number = int(input())
+if Number == 0:
+    print(f"{Number} is equal to zero")
+elif Number<0:
+    print(f"{Number} is negative")
+else:
+    print(f"{Number} is positive")
+            
+
