@@ -1,0 +1,19 @@
+#WAP to find max of three numbers 
+
+A = (int)(input())
+B = (int)(input())
+C = (int)(input())
+if A<B:
+    if C>B:
+        print("C is the maximum ")
+    else:
+        print("B max")
+    
+else:
+    if C>A:
+        print("C max")
+    else:
+        if A==B and B==C:
+            print("Equal")
+        else:    
+            print("A is the maximum")
