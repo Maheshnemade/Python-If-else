@@ -1,0 +1,6 @@
+#WAP to find given number is odd or even
+A = int(input())
+if A%2==0:
+    print("it is an even nummber")
+else:
+    print("it is an odd number")
