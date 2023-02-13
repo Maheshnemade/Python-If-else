@@ -1,0 +1,8 @@
+var = input()
+if (var>='a' and var<='z') or (var>='A' and var<='Z'):
+    print("it is a alphabet")
+elif (var>='0' and var<='9'):
+    print("it is a integer")
+    print(var)
+else:
+    print("it is a special character")
