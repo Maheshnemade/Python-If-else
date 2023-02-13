@@ -1,0 +1,7 @@
+var = input()
+if var >= 'a' and var <= 'z':
+    print("given character is lowercase")
+elif var >= 'A' and var <= 'Z':
+     print("given character is uppercase")
+else:
+    print("entered character is not valid")
