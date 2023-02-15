@@ -1,0 +1,11 @@
+t = int(input())
+a = int(input())
+p = t-a
+pp = float(p/t * 100)
+
+print(pp)
+if pp >= 75:
+    print("Student is able to attend the exam")
+else:
+    print("Student is not able to attend the exam")
+
