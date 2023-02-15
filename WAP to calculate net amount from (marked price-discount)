@@ -1,0 +1,11 @@
+mp = int(input())
+if mp>10000:
+    na = mp-mp/20
+    print(f"{na} is the net amount")
+elif mp>7000 and mp<=10000:
+    na = mp-mp/15
+    print(f"{na} is the net amount")  
+elif mp<=7000:
+    na = mp-mp/10
+    print(f"{na} is the net amount")    
+
